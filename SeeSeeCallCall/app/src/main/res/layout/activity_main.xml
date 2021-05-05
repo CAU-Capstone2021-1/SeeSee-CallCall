@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:background="@color/teal_700">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="380dp"
+        android:layout_height="320dp"
+        app:cardCornerRadius="75dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginRight="50dp"
+        app:cardElevation="0dp"
+        >
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="380dp"
+            android:layout_height="260dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/logo"
+            />
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <android.widget.Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/shape"
+            android:drawableStart="@drawable/icon_call2"
+            android:paddingLeft="20dp"
+            android:text="통화기록"
+            android:paddingRight="50dp"
+            />
+
+        <android.widget.Button
+            android:text="일정관리"
+            android:background="@drawable/shape"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="35dp"
+            android:drawableStart="@drawable/icon_calendar2"
+            android:paddingLeft="20dp"
+            android:paddingRight="50dp"
+            />
+
+        <android.widget.Button
+            android:text="메모"
+            android:background="@drawable/shape"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="35dp"
+            android:drawableStart="@drawable/icon_memo2"
+            android:paddingLeft="20dp"
+            android:paddingRight="50dp"
+            />
+
+        <android.widget.Button
+            android:text="설정"
+            android:background="@drawable/shape"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginRight="100dp"
+            android:layout_marginBottom="35dp"
+            android:drawableStart="@drawable/icon_setting2"
+            android:paddingLeft="20dp"
+            android:paddingRight="50dp"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
